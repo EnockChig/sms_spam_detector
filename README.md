@@ -1,5 +1,5 @@
 # sms_spam_detector
-Background
+
 Refactoring code from an SMS text classification solution into a function that constructs a linear Support Vector Classification (SVC) model, model is created and trained. Hosted on Gradio to use the application, enabling users to test text messages. The application will provide feedback to users, indicating whether the text is classified as spam or not, based on the model's performance.
 
 
