@@ -34,6 +34,7 @@ The application is hosted on Gradio to create an interactive user interface. Use
 The model is trained on the provided dataset, which contains SMS messages labeled as either "ham" or "spam". After training, the model's performance is evaluated on the test set, and the application is ready for deployment using Gradio.
 
 Instructions
+
 Open the gradio_sms_text_classification.ipynb notebook.
 Ensure that all dependencies are installed, including Gradio, pandas, scikit-learn, etc.
 Load the SMSSpamCollection.csv dataset.
@@ -42,7 +43,9 @@ Test the model using the Gradio interface by running the notebook.
 Input your own text messages to see if they are classified as spam or not.
 
 Dependencies
+
 Make sure the following Python libraries are installed:
+
 gradio
 pandas
 scikit-learn
@@ -54,6 +57,7 @@ To run the SMS classification application:
 Launch the gradio_sms_text_classification.ipynb notebook.
 Follow the instructions in the notebook to train the model and start the Gradio interface.
 Input an SMS text into the Gradio UI, and the model will classify it as spam or not spam.
+
 Example Output:
 Input: "Win a free iPhone now!"
 
@@ -64,6 +68,7 @@ Input: "Hey, are we still on for lunch?"
 Output: The text message: "Hey, are we still on for lunch?", is not spam.
 
 Conclusion
+
 This project provides a hands-on implementation of a linear SVC model to classify SMS messages. By using Gradio, it enables users to interact with the model in real time, making it a practical tool for identifying spam messages.
 
 
