@@ -47,15 +47,22 @@ Dependencies
 Make sure the following Python libraries are installed:
 
 gradio
+
 pandas
+
 scikit-learn
+
 numpy
+
+
 Running the Application
 
 To run the SMS classification application:
 
 Launch the gradio_sms_text_classification.ipynb notebook.
+
 Follow the instructions in the notebook to train the model and start the Gradio interface.
+
 Input an SMS text into the Gradio UI, and the model will classify it as spam or not spam.
 
 Example Output:
